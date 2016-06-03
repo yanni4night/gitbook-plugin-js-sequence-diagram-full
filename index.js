@@ -13,14 +13,12 @@ module.exports = {
     book: {
         assets: "./book",
         js: [
+            "sequence-diagram-min.js",
             "plugin.js"
         ],
         css: [
         ],
         html: {
-            "head:end": function() {
-                return "<script async src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML'></script>";
-            }
         }
     }
 };

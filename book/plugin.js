@@ -9,7 +9,7 @@
   * @version 1.0.0
   * @since 1.0.0
   */
-require(["./jquery.min","gitbook", "./sequence-diagram"], function($, gitbook) {
+require(["jquery", "gitbook"], function($, gitbook) {
   gitbook.events.bind("page.change", function() {
     $('code.lang-sequence').each(function(index, element) {
       var $element = $(element);
