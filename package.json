@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-plugin-js-sequence-diagram-full",
+  "version": "0.1.0",
+  "description": "Js sequence diagram plugin for gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanni4night/gitbook-plugin-js-sequence-diagram-full.git"
+  },
+  "engines": {
+        "gitbook": "*"
+  },
+  "keywords": [
+    "gitbook-plugin",
+    "js-sequence"
+  ],
+  "author": "yanni4night@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yanni4night/gitbook-plugin-js-sequence-diagram-full/issues"
+  },
+  "homepage": "https://github.com/yanni4night/gitbook-plugin-js-sequence-diagram-full#readme"
+}
